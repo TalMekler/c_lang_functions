@@ -1,0 +1,1 @@
+int getIndex(int* arr, int size, int num);
