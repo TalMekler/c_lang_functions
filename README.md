@@ -11,3 +11,5 @@ int intArr_getIndex:
 void intArr_quickSort: 
     The function gets array of integers and two other integers (l and h).
     The function sorts the array.
+
+change something
