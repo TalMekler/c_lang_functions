@@ -18,5 +18,5 @@ void removeSpaces(char* st) {
 	}
 
 	if (st[strlen(st) - 1] == ' ')
-		st[strlen(st) - 1] = NULL;
+		st[strlen(st) - 1] = '\0';
 }
