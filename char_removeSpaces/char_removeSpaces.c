@@ -1,7 +1,7 @@
 void removeSpaces(char* st) {
 	for (int i = 0; i < strlen(st); ++i) {
 		if (i == 0 && st[i] == ' ') {
-			for (int j = i; j < strlen(st); ++j) {
+			for (int j = i; j < strlen(st) - 1; ++j) {
 				st[j] = st[j + 1];
 			}
 			--i;
@@ -9,7 +9,7 @@ void removeSpaces(char* st) {
 
 		if (i > 0) {
 			if (st[i - 1] == ' ' && st[i] == ' ') {
-				for (int j = i; j < strlen(st); ++j) {
+				for (int j = i; j < strlen(st) - 1; ++j) {
 					st[j] = st[j + 1];
 				}
 				--i;
